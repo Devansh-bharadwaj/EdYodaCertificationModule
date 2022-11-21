@@ -1,0 +1,890 @@
+[
+  {
+    "Team_Id": "1",
+    "Team_Name": "Mumbai Indians",
+    "Team_Short_Code": "MI",
+    "Team_icon": "https://www.pngitem.com/pimgs/m/124-1245168_mumbai-indians-logo-png-image-free-download-searchpng.png",
+    "total_player": "15",
+    "top-Batsman": "Rohit Sharma",
+    "top-bowler": "Jasprit Bumrah",
+    "trophies": "5",
+    "playerDetail": [
+      {
+        "id": 9,
+        "playerName": "Rohit Sharma",
+        "from": "MI",
+        "price": "9.50 ",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/107.png"
+      },
+      {
+        "id": 10,
+        "playerName": "Jasprit Bumrah",
+        "from": "MI",
+        "price": "11.00 ",
+        "isPlaying": true,
+        "description": "Fast Bowler",
+        "photo": "https://images.news18.com/ibnlive/uploads/2020/08/1598430902_capture_1-5.jpg"
+      },
+      {
+        "id": 11,
+        "playerName": "Ishan Kishan",
+        "from": "MI",
+        "price": "13.00 ",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/2975.png"
+      },
+      {
+        "id": 12,
+        "playerName": "Jofra Archer",
+        "from": "MI",
+        "price": "1.00 ",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://www.insidesport.in/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-14-at-5.05.33-PM.jpeg?w=973"
+      },
+      {
+        "id": 13,
+        "playerName": "Murgun Ashwin",
+        "from": "MI",
+        "price": "6.00 ",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/341300/341392.jpg"
+      },
+      {
+        "id": 14,
+        "playerName": "Surya Kumar Yadav",
+        "from": "MI",
+        "price": "11.00 ",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/05/11/3f68892687e68d7db2d00d6edbc4f88e-1-1108250-1652242429.jpg?itok=nLzIAI2K"
+      },
+      {
+        "id": 15,
+        "playerName": "Tim David",
+        "from": "MI",
+        "price": "10.00 ",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://english.cdn.zeenews.com/sites/default/files/2022/05/20/1044597-davidmahela.jpg"
+      },
+      {
+        "id": 16,
+        "playerName": "Kieron Pollard",
+        "from": "MI",
+        "price": "11.00 ",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://images.indianexpress.com/2022/05/Pollard-3.jpg"
+      },
+      {
+        "id": 17,
+        "playerName": "Daniel Sams",
+        "from": "MI",
+        "price": "9.00 ",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://www.insidesport.in/wp-content/uploads/2022/05/WhatsApp-Image-2022-05-31-at-6.06.50-PM.jpeg?w=690"
+      },
+      {
+        "id": 18,
+        "playerName": "Anmolpreet Singh",
+        "from": "MI",
+        "price": "2.00 ",
+        "isPlaying": false,
+        "description": "Batsman",
+        "photo": "http://www.mumbaiindians.com/wp-content/uploads/2018/12/Anmol-feature.jpg"
+      },
+      {
+        "id": 19,
+        "playerName": "Tilak Varma",
+        "from": "MI",
+        "price": "4.00 ",
+        "isPlaying": false,
+        "description": "Batsman",
+        "photo": "https://www.mykhel.com/img/2022/05/tilak-varma-mi-1652773706.jpg"
+      }
+    ]
+  },
+  {
+    "Team_Id": "2",
+    "Team_Name": "Chennai Super Kings",
+    "Team_Short_Code": "CSK",
+    "Team_icon": "https://www.pngitem.com/pimgs/m/127-1270691_chennai-super-kings-logo-png-image-free-download.png",
+    "total_player": "15",
+    "top-Batsman": "MS Dhoni",
+    "top-bowler": "Ravindra Jadeja",
+    "trophies": "3",
+    "playerDetail": [
+      {
+        "id": 9,
+        "playerName": "MS Dhoni",
+        "from": "CSK",
+        "price": "14.25",
+        "isPlaying": true,
+        "description": "Wicket-Keeper",
+        "photo": "https://c.ndtvimg.com/2021-10/gjo8hnng_ms-dhoni-ipl_625x300_07_October_21.jpg"
+      },
+      {
+        "id": 10,
+        "playerName": "Ravindra Jadeja",
+        "from": "CSK",
+        "price": "12.25",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://www.sportstwentyfour.com/wp-content/uploads/2019/02/Ravindra-Jadeja.png"
+      },
+      {
+        "id": 11,
+        "playerName": "Dwayne Bravo",
+        "from": "CSK",
+        "price": "24.25",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/01/30/646483-332025-dwayne-bravo-pti.jpg"
+      },
+      {
+        "id": 12,
+        "playerName": "Ambati Rayudu",
+        "from": "CSK",
+        "price": "8.25",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/04/18/43fb9274432423a60bfbd1ecd33062ae-1-1101679-1650260330.jpg?itok=L74cBjmz"
+      },
+      {
+        "id": 13,
+        "playerName": "Ruturaj Gaikwad",
+        "from": "CSK",
+        "price": "12.25",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://static.india.com/wp-content/uploads/2021/10/pjimage-2021-10-02T215204.753.jpg"
+      },
+      {
+        "id": 14,
+        "playerName": "Moeen Ali",
+        "from": "CSK",
+        "price": "6.00",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://igimages.gumlet.io/tamil/home/moeen250322_2.jpg?w=376&dpr=2.6"
+      },
+      {
+        "id": 15,
+        "playerName": "Deepak Chahar",
+        "from": "CSK",
+        "price": "4.35",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/04/22/674659-deepak-chahar-twitter.jpg"
+      },
+      {
+        "id": 16,
+        "playerName": "Robin Utthappa",
+        "from": "CSK",
+        "price": "12.25",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://images.mid-day.com/images/images/2021/oct/Robin-Uthappa-aa_d.jpg"
+      },
+      {
+        "id": 17,
+        "playerName": "Shivam Dube",
+        "from": "CSK",
+        "price": "14.25",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://images.hindustantimes.com/img/2022/04/13/1600x900/PTI04-12-2022-000275B-0_1649834500022_1649834526909.jpg"
+      },
+      {
+        "id": 18,
+        "playerName": "Mitchell Santner",
+        "from": "CSK",
+        "price": "12.25",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://www.mykhel.com/img/2020/07/santner-1596178226.jpg"
+      },
+      {
+        "id": 19,
+        "playerName": "Dwaine Pretorius",
+        "from": "CSK",
+        "price": "4.25",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_800,q_50/lsci/db/PICTURES/CMS/338700/338717.4.jpg"
+      }
+    ]
+  },
+  {
+    "Team_Id": "3",
+    "Team_Name": "Lucknow Super Giants",
+    "Team_Short_Code": "LSG",
+    "Team_icon": "https://aniportalimages.s3.amazonaws.com/media/details/Capturelshkjsd2022013111314320220131113747.jpg",
+    "total_player": "15",
+    "top-Batsman": "KL Rahul",
+    "top-bowler": "Krunal Pandya",
+    "trophies": "0",
+    "playerDetail": [
+      {
+        "id": 9,
+        "playerName": "KL Rahul",
+        "from": "LSG",
+        "price": "19.25",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://static.toiimg.com/photo/90883664.cms"
+      },
+      {
+        "id": 10,
+        "playerName": "Krunal Pandya",
+        "from": "LSG",
+        "price": "6.25",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202205/PTI03_28_2022_000287B_1200x768.jpeg?VersionId=gZmLgnlxzEu6wYmTQUIueoMJpvj9yH3T&size=690:388"
+      },
+      {
+        "id": 11,
+        "playerName": "Deepak Hooda",
+        "from": "LSG",
+        "price": "9.25 ",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/oispkiw0p0cmluv8_1648481881.jpeg?tr=w-1200,h-900"
+      },
+      {
+        "id": 12,
+        "playerName": "Json Holder",
+        "from": "LSG",
+        "price": "16.25",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://pbs.twimg.com/media/Fhbn7HeVsAAJEcg?format=jpg&name=large"
+      },
+      {
+        "id": 13,
+        "playerName": "Manish Pandey",
+        "from": "LSG",
+        "price": "5.25 ",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://cdn-wp.thesportsrush.com/2022/04/f9752ad7-manish-pandey-not-playing.jpg"
+      },
+      {
+        "id": 14,
+        "playerName": "Mark Wood",
+        "from": "LSG",
+        "price": "6.25",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://hindi.cricketaddictor.com/wp-content/uploads/2022/03/photo_2022-03-18_14-38-01-1024x538.jpg"
+      },
+      {
+        "id": 15,
+        "playerName": "Avesh Khan",
+        "from": "LSG",
+        "price": "2.25 ",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://static.toiimg.com/thumb/msid-91414297,width-1070,height-580,imgsize-36158,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+      },
+      {
+        "id": 16,
+        "playerName": "Evin Lewis",
+        "from": "LSG",
+        "price": "16.25",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2022/03/31/1027279-evin-lewis.jpg"
+      },
+      {
+        "id": 17,
+        "playerName": "Ayush Badoni",
+        "from": "LSG",
+        "price": "6.25",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://static.toiimg.com/thumb/msid-90508781,width-1280,height-720,resizemode-4/.jpg"
+      },
+      {
+        "id": 18,
+        "playerName": "Karan Sharma",
+        "from": "LSG",
+        "price": "1.25 ",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2022/05/10/1041125-untitled-design-75.png?im=Resize=(1280,720)"
+      },
+      {
+        "id": 19,
+        "playerName": "Mayank Yadav",
+        "from": "LSG",
+        "price": "6.25",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://static.toiimg.com/photo/90883664.cms"
+      }
+    ]
+  },
+  {
+    "Team_Id": "4",
+    "Team_Name": "Delhi Capitals",
+    "Team_Short_Code": "DC",
+    "Team_icon": "https://www.pngkit.com/png/detail/522-5228344_delhi-capitals.png",
+    "total_player": "16",
+    "top-Batsman": "Rishabh Pant",
+    "top-bowler": "Shardul Thakur",
+    "trophies": "0",
+    "playerDetail": [
+      {
+        "id": 9,
+        "playerName": "Rishabh Pant",
+        "from": "DC",
+        "price": "2.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/2972.png"
+      },
+      {
+        "id": 10,
+        "playerName": "Mustafizur Rehman",
+        "from": "DC",
+        "price": "5.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/1594.png"
+      },
+      {
+        "id": 11,
+        "playerName": "Prithvi Shaw",
+        "from": "DC",
+        "price": "12.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3764.png"
+      },
+      {
+        "id": 12,
+        "playerName": "Rovman Powell",
+        "from": "DC",
+        "price": "5.50",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3333.png"
+      },
+      {
+        "id": 13,
+        "playerName": "Axar Patel",
+        "from": "DC",
+        "price": "2.50",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/1113.png"
+      },
+      {
+        "id": 14,
+        "playerName": "Kamlesh NagarKoti",
+        "from": "DC",
+        "price": "5.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3766.png"
+      },
+      {
+        "id": 15,
+        "playerName": "Vicky Ostwal",
+        "from": "DC",
+        "price": "2.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/20624.png"
+      },
+      {
+        "id": 16,
+        "playerName": "Yash Dhull",
+        "from": "DC",
+        "price": "5.50",
+        "isPlaying": false,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/20623.png"
+      },
+      {
+        "id": 17,
+        "playerName": "Kuldeep Yadav",
+        "from": "DC",
+        "price": "12.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/261.png"
+      },
+      {
+        "id": 18,
+        "playerName": "lungi Ngidi",
+        "from": "DC",
+        "price": "15.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3746.png"
+      },
+      {
+        "id": 19,
+        "playerName": "Khaleel Ahmed",
+        "from": "DC",
+        "price": "15.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/2964.png"
+      }
+    ]
+  },
+  {
+    "Team_Id": "5",
+    "Team_Name": "Gujrat Titans",
+    "Team_Short_Code": "GT",
+    "Team_icon": "https://img.jagranjosh.com/images/2022/February/2122022/gujarat_titans_team_logo.jpg",
+    "total_player": "14",
+    "top-Batsman": "Hardik Pandya",
+    "top-bowler": "Rashid Khan",
+    "trophies": "1",
+    "playerDetail": [
+      {
+        "id": 9,
+        "playerName": "Hardik Pandya",
+        "from": "GT",
+        "price": "26.50",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/2740.png"
+      },
+      {
+        "id": 10,
+        "playerName": "David Miller",
+        "from": "GT",
+        "price": "5.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/187.png"
+      },
+      {
+        "id": 11,
+        "playerName": "Shubhman Gill",
+        "from": "GT",
+        "price": "2.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3761.png"
+      },
+      {
+        "id": 12,
+        "playerName": "Matthew Wade",
+        "from": "GT",
+        "price": "16.50",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/290.png"
+      },
+      {
+        "id": 13,
+        "playerName": "Wriddhiman Saha",
+        "from": "GT",
+        "price": "4.50",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/16.png"
+      },
+      {
+        "id": 14,
+        "playerName": "Jayant Yadav",
+        "from": "GT",
+        "price": "16.50",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/1740.png"
+      },
+      {
+        "id": 15,
+        "playerName": "Rahul Tewatia",
+        "from": "GT",
+        "price": "12.50",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/1749.png"
+      },
+      {
+        "id": 16,
+        "playerName": "Vijay Shankar",
+        "from": "GT",
+        "price": "6.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/1083.png"
+      },
+      {
+        "id": 17,
+        "playerName": "Mohammad Shami",
+        "from": "GT",
+        "price": "6.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/94.png"
+      },
+      {
+        "id": 18,
+        "playerName": "Noor Ahmad",
+        "from": "GT",
+        "price": "16.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/20590.png"
+      },
+      {
+        "id": 19,
+        "playerName": "Rashid Khan",
+        "from": "GT",
+        "price": "16.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/2885.png"
+      }
+    ]
+  },
+  {
+    "Team_Id": "6",
+    "Team_Name": "Kolkata Knight Riders",
+    "Team_Short_Code": "KKR",
+    "Team_icon": "https://www.pngitem.com/pimgs/m/479-4794530_kolkata-knight-riders-logo-kkr-kolkata-knight-riders.png",
+    "total_player": "15",
+    "top-Batsman": "Shreyas Iyer",
+    "top-bowler": "Sunil Narine",
+    "trophies": "2",
+    "playerDetail": [
+      {
+        "id": 9,
+        "playerName": "Shreyas Iyer",
+        "from": "KKR",
+        "price": "12.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/1563.png"
+      },
+      {
+        "id": 10,
+        "playerName": "Sunil Narine",
+        "from": "KKR",
+        "price": "8.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/203.png"
+      },
+      {
+        "id": 11,
+        "playerName": "Nitish Rana",
+        "from": "KKR",
+        "price": "10.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/2738.png"
+      },
+      {
+        "id": 12,
+        "playerName": "Andre Russel",
+        "from": "KKR",
+        "price": "8.50",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/177.png"
+      },
+      {
+        "id": 13,
+        "playerName": "Rinku Singh",
+        "from": "KKR",
+        "price": "11.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3830.png"
+      },
+      {
+        "id": 14,
+        "playerName": "Anukul Roy",
+        "from": "KKR",
+        "price": "8.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3774.png"
+      },
+      {
+        "id": 15,
+        "playerName": "Nitish Rana",
+        "from": "KKR",
+        "price": "10.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/2738.png"
+      },
+      {
+        "id": 16,
+        "playerName": "Rinku Singh",
+        "from": "KKR",
+        "price": "11.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3830.png"
+      },
+      {
+        "id": 17,
+        "playerName": "Shreyas Iyer",
+        "from": "KKR",
+        "price": "12.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/1563.png"
+      },
+      {
+        "id": 18,
+        "playerName": "Anukul Roy",
+        "from": "KKR",
+        "price": "8.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3774.png"
+      },
+      {
+        "id": 19,
+        "playerName": "Andre Russel",
+        "from": "KKR",
+        "price": "8.50",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/177.png"
+      }
+    ]
+  },
+  {
+    "Team_Id": "7",
+    "Team_Name": "Royal Challengers Banglore",
+    "Team_Short_Code": "RCB",
+    "Team_icon": "https://www.kindpng.com/picc/m/504-5047507_rcb-logo-royal-challengers-bangalore-png-royal-challengers.png",
+    "total_player": "15",
+    "top-Batsman": "Virat Kohli",
+    "top-bowler": "Harshal Patel",
+    "trophies": "0",
+    "playerDetail": [
+      {
+        "id": 9,
+        "playerName": "Virat Kohli",
+        "from": "RCB",
+        "price": "18.00",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/164.png"
+      },
+      {
+        "id": 10,
+        "playerName": "Harshal Patel",
+        "from": "RCB",
+        "price": "8.00",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/157.png"
+      },
+      {
+        "id": 11,
+        "playerName": "Dinesh Karthik",
+        "from": "RCB",
+        "price": "12.00",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/102.png"
+      },
+      {
+        "id": 12,
+        "playerName": "Rajat Patidar",
+        "from": "RCB",
+        "price": "8.00",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/5471.png"
+      },
+      {
+        "id": 13,
+        "playerName": "Glenn Maxwell",
+        "from": "RCB",
+        "price": "18.00",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/282.png"
+      },
+      {
+        "id": 14,
+        "playerName": "Dinesh Karthik",
+        "from": "RCB",
+        "price": "12.00",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/102.png"
+      },
+      {
+        "id": 15,
+        "playerName": "Rajat Patidar",
+        "from": "RCB",
+        "price": "8.00",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/5471.png"
+      },
+      {
+        "id": 16,
+        "playerName": "Harshal Patel",
+        "from": "RCB",
+        "price": "8.00",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/157.png"
+      },
+      {
+        "id": 17,
+        "playerName": "Virat Kohli",
+        "from": "RCB",
+        "price": "18.00",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/164.png"
+      },
+      {
+        "id": 18,
+        "playerName": "David Willey",
+        "from": "RCB",
+        "price": "8.00",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/2758.png"
+      },
+      {
+        "id": 19,
+        "playerName": "Harshal Patel",
+        "from": "RCB",
+        "price": "8.00",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/157.png"
+      }
+    ]
+  },
+  {
+    "Team_Id": "8",
+    "Team_Name": "Sunrisers Hyderabad",
+    "Team_Short_Code": "SRH",
+    "Team_icon": "https://www.pngitem.com/pimgs/m/127-1270226_srh-logo-ipl-2018-png-download-ipl-team.png",
+    "total_player": "15",
+    "top-Batsman": "Abdul Samad",
+    "top-bowler": "Umran Malik",
+    "trophies": "1",
+    "playerDetail": [
+      {
+        "id": 9,
+        "playerName": "Abdul Samad",
+        "from": "SRH",
+        "price": "12.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/19352.png"
+      },
+      {
+        "id": 10,
+        "playerName": "Aiden Markram",
+        "from": "SRH",
+        "price": "22.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/1667.png"
+      },
+      {
+        "id": 11,
+        "playerName": "Rahul Tripathi",
+        "from": "SRH",
+        "price": "2.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3838.png"
+      },
+      {
+        "id": 12,
+        "playerName": "Glenn Phillips",
+        "from": "SRH",
+        "price": "22.50",
+        "isPlaying": true,
+        "description": "All-rounder",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3027.png"
+      },
+      {
+        "id": 13,
+        "playerName": "Bhuvneshwar Kumar",
+        "from": "SRH",
+        "price": "12.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/116.png"
+      },
+      {
+        "id": 14,
+        "playerName": "Abdul Samad",
+        "from": "SRH",
+        "price": "12.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/19352.png"
+      },
+      {
+        "id": 15,
+        "playerName": "Rahul Tripathi",
+        "from": "SRH",
+        "price": "2.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3838.png"
+      },
+      {
+        "id": 16,
+        "playerName": "Aiden Markram",
+        "from": "SRH",
+        "price": "22.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/1667.png"
+      },
+      {
+        "id": 17,
+        "playerName": "Abdul Samad",
+        "from": "SRH",
+        "price": "12.50",
+        "isPlaying": true,
+        "description": "Batsman",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/19352.png"
+      },
+      {
+        "id": 18,
+        "playerName": "Kartik Tyagi",
+        "from": "SRH",
+        "price": "2.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/10059.png"
+      },
+      {
+        "id": 19,
+        "playerName": "Umran Malik",
+        "from": "SRH",
+        "price": "4.50",
+        "isPlaying": true,
+        "description": "Bowler",
+        "photo": "https://assets.iplt20.com/ipl/IPLHeadshot2022/15154.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tata IPL | 2023</title>
+    <link rel="icon" type="image/x-icon" href="/images/favIcon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: fixed; width: 100%;top: 0;z-index: 10;">
+        <div class="container-fluid">
+          <a style="width: 30%;" class="navbar-brand" href="./index.html"><img style="width: 19%;" src="./images/favIcon.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="width: 40%; justify-content: space-between;">
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" aria-current="page">Home</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="#">Teams</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <div class="add-player">
+                <button onclick="showForm()">Add Player</button>
+                <div class="form">
+                    <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="name" aria-describedby="emailHelp" required>
+                          <label for="teamName" class="form-label">Team Name</label>
+                          <input type="text" class="form-control" id="teamName" aria-describedby="emailHelp" required>
+                          <label for="playerId" class="form-label">Player ID</label>
+                          <input type="text" class="form-control" id="playerId" aria-describedby="emailHelp" required>
+                          <label for="imageUrl" class="form-label">Image URL</label>
+                          <input type="text" class="form-control" id="imageUrl" aria-describedby="emailHelp" required>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="add">Add</button>
+                      </form>
+                </div>
+            </div>
+            <form class="d-flex">
+              <input id="searchInput" onclick="showListItems()" onkeyup="searchFun()" class="form-control me-2" type="text" autocomplete="off" placeholder="Search" aria-label="Search">
+              <div class="listItem">
+                 <ul class="list-group team-list-group">
+                    <li class="list-group-item team-list-item">MI</li>
+                    <li class="list-group-item team-list-item">CSK</li>
+                    <li class="list-group-item team-list-item">LSG</li>
+                    <li class="list-group-item team-list-item">DC</li>
+                    <li class="list-group-item team-list-item">GT</li>
+                    <li class="list-group-item team-list-item">KKR</li>
+                    <li class="list-group-item team-list-item">RCB</li>
+                    <li class="list-group-item team-list-item">SRH</li>
+                  </ul>
+                </div>
+                <div id="listItem2">
+                    <ul class="list-group player-list">
+                        <li class="list-group-item player-list-item"></li>
+                        <li class="list-group-item player-list-item"></li>
+                        <li class="list-group-item player-list-item"></li>
+                        <li class="list-group-item player-list-item"></li>
+                        <li class="list-group-item player-list-item"></li>
+                        <li class="list-group-item player-list-item"></li>
+                        <li class="list-group-item player-list-item"></li>
+                        <li class="list-group-item player-list-item"></li>
+                        <li class="list-group-item player-list-item"></li>
+                        <li class="list-group-item player-list-item"></li>
+                        <li class="list-group-item player-list-item"></li>
+                      </ul>
+                </div>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <div class="container homepage">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="margin-top: 140px;">
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="transition: transform 500ms ease 0s">
+                <img src="./images/TATA-IPL-2022.jpg" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item" style="transition: transform 500ms ease 0s">
+                <img src="./images/mi-cover.jpg" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item" style="transition: transform 500ms ease 0s">
+                <img src="./images/csk-cover.png" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item" style="transition: transform 500ms ease 0s">
+                <img src="./images/GT-cover.jpg" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item" style="transition: transform 500ms ease 0s">
+                <img src="./images/kkr-cover.jpg" class="d-block" alt="...">
+              </div>
+              <div class="carousel-item" style="transition: transform 500ms ease 0s">
+                <img src="./images/lsg-cover.jpg" class="d-block" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container team-heading">
+            <h1>TEAMS</h1>
+        </div>
+        <div class="teams my-5">
+            <div class="card team-card" style="width: 17rem;">
+                <img id="1" src="./images/mi-logo.png" style="height: 150px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mumbai Indians</h5>
+                  <p class="card-text">Trophies Won: 5</p>
+                  <p class="owner">Owner: Mukesh Ambani</p>
+                  <p class="top-bat">Top Batsman: Rohit Sharma</p>
+                  <p class="top-bowler">Top Bowler: Jasprit Bumrah</p>
+                </div>
+            </div>
+            <div class="card team-card" style="width: 17rem;">
+                <img id="2" src="./images/csk-logo.png" style="height: 150px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chennai Super Kings</h5>
+                  <p class="card-text">Trophies Won: 3</p>
+                  <p class="owner">Owner: N Srinivasan</p>
+                  <p class="top-bat">Top Batsman: MS Dhoni</p>
+                  <p class="top-bowler">Top Bowler: Ravindra Jadeja</p>
+                </div>
+            </div>
+            <div class="card team-card" style="width: 17rem;">
+                <img id="3" src="./images/lsg-logo.jpg" style="height: 150px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lucknow Super Giants</h5>
+                  <p class="card-text">Trophies Won: 0</p>
+                  <p class="owner">Owner: Sanjiv Goenka</p>
+                  <p class="top-bat">Top Batsman: KL Rahul</p>
+                  <p class="top-bowler">Top Bowler: Krunal Pandya</p>
+                </div>
+            </div>
+            <div class="card team-card" style="width: 17rem;">
+                <img id="4" src="./images/dc-logo.png" style="height: 150px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Delhi Capitals</h5>
+                  <p class="card-text">Trophies Won: 0</p>
+                  <p class="owner">Owner: Parth Jindal</p>
+                  <p class="top-bat">Top Batsman: Rishabh Pant</p>
+                  <p class="top-bowler">Top Bowler: Shardul Thakur</p>
+                </div>
+            </div>
+            <div class="card team-card" style="width: 17rem;">
+                <img id="5" src="./images/GT-cover.jpg" style="height: 150px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gujrat Titans</h5>
+                  <p class="card-text">Trophies Won: 1</p>
+                  <p class="owner">Owner: CVC Capital Partners</p>
+                  <p class="top-bat">Top Batsman: Hardik Pandya</p>
+                  <p class="top-bowler">Top Bowler: Rashid Khan</p>
+                </div>
+            </div>
+            <div class="card team-card" style="width: 17rem;">
+                <img id="6" src="./images/kkr-logo.png" style="height: 150px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kolkata Knight Riders</h5>
+                  <p class="card-text">Trophies Won: 2</p>
+                  <p class="owner">Owner: Shahrukh Khan & Juhi Chawla</p>
+                  <p class="top-bat">Top Batsman: Shreyas Iyer</p>
+                  <p class="top-bowler">Top Bowler: Sunil Narine</p>
+                </div>
+            </div>
+            <div class="card team-card" style="width: 17rem;">
+                <img id="7" src="./images/rcb-logo.png" style="height: 150px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Royal Challengers Banglore</h5>
+                  <p class="card-text">Trophies Won: 0</p>
+                  <p class="owner">Owner: Vijay Mallya</p>
+                  <p class="top-bat">Top Batsman: Virat Kohli</p>
+                  <p class="top-bowler">Top Bowler: Harshal Patel</p>
+                </div>
+            </div>
+            <div class="card team-card" style="width: 17rem;">
+                <img id="8" src="./images/sunrisers-logo.png" style="height: 150px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sunrisers Hyderabad</h5>
+                  <p class="card-text">Trophies Won: 1</p>
+                  <p class="owner">Owner: Kalanithi Maran</p>
+                  <p class="top-bat">Top Batsman: Abdul Samad</p>
+                  <p class="top-bowler">Top Bowler: Umran Malik</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container team-preview">
+        <div class="team-name-logo">
+            <img />
+            <h2 style="text-align: center; font-size: 67px;"></h2>
+        </div>
+        <div class="team-preview-content">
+            <div class="players">
+                <div class="card player-card" style="width: 14rem;">
+                    <img id="9" class="card-img-top show-player" style="height: 150px;">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <p class="team-name"></p>
+                    </div>
+                </div>
+                <div class="card player-card" style="width: 14rem;">
+                    <img id="10" class="card-img-top show-player" style="height: 150px;">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <p class="team-name"></p>
+                    </div>
+                </div>
+                <div class="card player-card" style="width: 14rem;">
+                    <img id="11" class="card-img-top show-player" style="height: 150px;">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <p class="team-name"></p>
+                    </div>
+                </div>
+                <div class="card player-card" style="width: 14rem;">
+                    <img id="12" class="card-img-top show-player" style="height: 150px;">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <p class="team-name"></p>
+                    </div>
+                </div>
+                <div class="card player-card" style="width: 14rem;">
+                    <img id="13" class="card-img-top show-player" style="height: 150px;">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <p class="team-name"></p>
+                    </div>
+                </div>
+                <div class="card player-card" style="width: 14rem;">
+                    <img id="14" class="card-img-top show-player" style="height: 150px;">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <p class="team-name"></p>
+                    </div>
+                </div>
+                <div class="card player-card" style="width: 14rem;">
+                    <img id="15" class="card-img-top show-player" style="height: 150px;">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <p class="team-name"></p>
+                    </div>
+                </div>
+                <div class="card player-card" style="width: 14rem;">
+                    <img id="16" class="card-img-top show-player" style="height: 150px;">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <p class="team-name"></p>
+                    </div>
+                </div>
+                <div class="card player-card" style="width: 14rem;">
+                    <img id="17" class="card-img-top show-player" style="height: 150px;">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <p class="team-name"></p>
+                    </div>
+                </div>
+                <div class="card player-card" style="width: 14rem;">
+                    <img id="18" class="card-img-top show-player" style="height: 150px;">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <p class="team-name"></p>
+                    </div>
+                </div>
+                <div class="card player-card" style="width: 14rem;">
+                    <img id="19" class="card-img-top show-player" style="height: 150px;">
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"></p>
+                      <p class="team-name"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container player-detail-page">
+        <div class="player-detail-main">
+            <div class="player-pic">
+                <img >
+            </div>
+            <div class="player-data">
+                <h4 style="font-size: 47px;"></h4>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+          <p class="footer-heading">TEAM</p>
+          <a class="footer-link" href="/">MUMBAI INDIANS</a>
+          <a class="footer-link" href="/">CHENNAI SUPER KINGS</a>
+          <a class="footer-link" href="/">ROYAL CHALLENGERS BANGLORE</a>
+          <a class="footer-link" href="/">DELHI CAPITALS</a>
+          <a class="footer-link" href="/">LUCKNOW SUPER GIANTS</a>
+          <a class="footer-link" href="/">GUJRAT TITANS</a>
+          <a class="footer-link" href="/">SUNRISERS HYDERABAD</a>
+          <a class="footer-link" href="/">KOLKATA KNIGHT RIDERS</a>
+        </div>
+        <div>
+          <p class="footer-heading">HELPFUL LINK</p>
+          <a href="/" class="footer-link">HOME</a>
+          <a href="/" class="footer-link">ABOUT</a>
+          <a href="/" class="footer-link">CONTACT</a>
+        </div>
+        <div>
+          <p class="footer-heading">PARTNERS</p>
+          <a href="/" class="footer-link">TATA</a>
+          <a href="/" class="footer-link">BYJU'S</a>
+          <a href="/" class="footer-link">VIVO</a>
+          <a href="/" class="footer-link">VIMAL</a>
+          <a href="/" class="footer-link">+ MANY MORE</a>
+        </div>
+        <div>
+          <p class="footer-heading">ADDRESS</p>
+          <a href="/" class="footer-link">BUILDING 101</a>
+          <a href="/" class="footer-link">CENTRAL AVENUE</a>
+          <a href="/" class="footer-link">LA-902782</a>
+          <a href="/" class="footer-link">MUMBAI</a>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
